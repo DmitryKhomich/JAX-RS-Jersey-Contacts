@@ -1,0 +1,8 @@
+Endpoints, examples:
+
+
+(GET) http://localhost:8903/api/contacts -> list of contacts
+(GET) http://localhost:8903/api/contacts/find?id=1 -> find contact with id 1
+(POST) http://localhost:8903/api/contacts -> paste contact (endpoint with BODY)
+(PATCH) http://localhost:8903/api/contacts/2?phone=123123123 -> update contact with id 2, set new phone
+(DELETE) http://localhost:8903/api/contacts/4 -> delete contact with id 4
